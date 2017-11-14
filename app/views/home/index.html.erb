@@ -1,0 +1,3 @@
+<% @ips.each do |ip| %>
+  <p><%= 'ip:' + ip.ip + ' - fecha visita: ' + ip.created_at.to_s + "\n" %></p>
+<% end %>
