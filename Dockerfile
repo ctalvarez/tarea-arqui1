@@ -12,5 +12,5 @@ RUN bundle install
 
 ADD . /arqui2
 
-ENV PORT 3000
+ENV PORT 80
 CMD ["rails", "server", "-b", "0.0.0.0"]
