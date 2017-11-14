@@ -12,5 +12,7 @@ RUN bundle install
 
 ADD . /arqui2
 
-ENV PORT 80
+ENV LISTEN_PORT=80
+
+EXPOSE 80
 CMD ["rails", "server", "-b", "0.0.0.0"]
